@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;*</Extensions>
+      <UniqueIdentifier>{B669D948-3401-4ED3-A372-17F5ACB06C88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <UniqueIdentifier>{6BF69C07-3C57-4B3E-B476-2FE25863C4E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms;man;xml</Extensions>
+      <UniqueIdentifier>{C8335578-FDE2-4937-A4B4-983F51CC74A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver Files">
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+      <UniqueIdentifier>{CE1E380F-0E2C-4AB0-A135-46775B8C4371}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsrDpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pci9656.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precompsrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceControl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include=".\pci9x5x.inx">
+      <Filter>Driver Files</Filter>
+    </Inf>
+    <Inf Include="*.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pci9656.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="Pci9656.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Public.h" />
+    <ClInclude Include="Reg9656.h" />
+    <ClInclude Include="trace.h" />
+  </ItemGroup>
+</Project>
